@@ -21,7 +21,7 @@ const BtnQuote = ({setQuote,phrases,setNumberBg,numberBg}) => {
     }
 
   return (
-    <button className="container__btn" onClick={handleRandomPhrase} >Other phrase🍀</button>
+    <button className="container__btn" onClick={handleRandomPhrase} >Nueva frase🍀</button>
   )
 }
 
