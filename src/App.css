@@ -1,0 +1,61 @@
+
+.container{
+    min-height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem
+}
+
+.container__title{
+    text-shadow: 0.15rem 0.15rem rgba(153, 153, 153, 0.6);
+    font-size: 2rem;
+    text-align: center;
+    width: 90%;
+}
+
+.container__phrase{
+    width: 90%;
+    max-width: 30rem;
+    /* background-color: rgba(255, 255, 255, 0.7); */
+    background-image: url("../public/rectangulo.png");
+    background-position: center center;
+    background-size: cover;
+    padding: 2em 1em;
+    line-height: 1.5;
+    border-radius: 0.7em;
+    font-size: 1.5rem;
+    font-family: 'Caveat', cursive;
+
+}
+
+.container__btn{
+    padding: 0.8em 0.2em;
+    border-radius: 0.7em;
+    font-size: 1.2rem;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 200ms ease,
+                transform 200ms ease,
+                box-shadow 200ms ease;
+}
+.container__btn:hover{
+    opacity: 1;
+    transform: scale(1.05);
+    box-shadow: 0 0 0.8em #0005;
+}
+
+@media screen and (min-width: 1024px){
+    .container__title{
+        font-size: 3rem;
+    }
+    .container__phrase,
+    .container__btn{
+        font-size: 2rem;
+        
+    }
+
+}
