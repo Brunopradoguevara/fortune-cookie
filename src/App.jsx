@@ -14,7 +14,7 @@ function App() {
   const [numberBg, setNumberBg] = useState(numberRandom)
 
   const bgStyle = {
-    backgroundImage: `url(/public/fondo${numberBg}.jpg)`
+    backgroundImage: `url(../public/fondo${numberBg}.jpg)`
   }
 
   return (
